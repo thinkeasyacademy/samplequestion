@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multiple File Downloads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .file-list {
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .file {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .file-name {
+      font-size: 16px;
+      color: #333;
+    }
+    .download-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Download Your Files</h1>
+
+  <div class="file-list">
+    <div class="file">
+      <div class="file-name">Final Term (Math-03): FALL_2022-2023</div>
+      <a href="Final- Fall_2022-2023.pdf" download class="download-button">Download</a>
+    </div>
+    <div class="file">
+      <div class="file-name">Final Term (Math-03): SUMMER_2022-2023</div>
+      <a href="Final- Summer 22-23.pdf" download class="download-button">Download</a>
+    </div>
+
+</body>
+</html>
